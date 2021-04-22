@@ -1,0 +1,14 @@
+app-carousel, app-slider
+    {
+        display: none;
+    }
+
+@media only screen and (max-width:411px) {
+    app-main-content, app-top{
+        display: none;
+    }
+    app-carousel, app-slider
+    {
+        display: contents;
+    }
+    }

@@ -1,0 +1,158 @@
+
+.footer-top .container-fluid
+{
+    background-color: #0047AB;
+    color: #fff;
+}
+.footer-top .next1 a{
+    font-size: 30px !important;
+    text-align: center;
+}
+.footer-top .next1{
+    position: absolute;
+    right: 0px;
+    top: 680%;
+    border-radius: 50%;
+    background-color: white;
+    width: 45px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+}
+.footer-top button
+{
+    border: 1px solid #0047AB;
+    color: #0047AB;
+    background-color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: unset;
+}
+
+.footer-top button:hover
+{
+    font-size: 15px;
+    border-radius: 5px;
+} 
+
+
+footer input
+{
+    border-radius: unset;
+}
+
+footer button:hover
+{
+    border: 1px solid #0047AB;
+    background-color: #fff;
+    color: #0047AB;
+    border-radius: 5px;
+}
+
+footer button
+{
+    border: 1px solid #0047AB;
+    color: #fff;
+    background-color: #0047AB;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border-radius: unset;
+}
+footer .list-inline
+{
+    font-size: 18px;
+}
+footer .list-inline i
+{
+    color: #0047AB;
+    padding: 2px;
+    /* font-size: 20px; */
+}
+footer .list-inline i:hover{
+    font-size: 20px;
+}
+footer ul li
+{
+    /* list-style:none; */
+    list-style-type: circle;
+    color: #FFC03D;
+}
+footer ul li a
+{
+    color: black;
+}
+footer ul li a:hover
+{
+    text-decoration: none;
+}
+footer h6
+{
+    color: #FFC03D;
+    font-weight: 700;
+}
+
+.footer-bottom
+{
+    background-color: #0047AB;
+    color: #fff;
+}
+
+.footer-bottom button
+{
+    border: 1px solid #0047AB;
+    color: #0047AB;
+    background-color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: unset;
+}
+
+.footer-bottom button:hover
+{
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+footer .next a
+    {
+        border-radius: 50%;
+        font-size: 25px !important;
+        width: 35px;
+        box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+    }
+.btm-img img
+{
+    width: 100%;
+    height: 200px;
+}
+
+.footer-top
+{
+    display: none;
+}
+@media only screen and (max-width:360px)
+{
+    .footer-bottom{
+        display: none;
+    } 
+    footer .logo
+    {
+        display: none;
+    }  
+    footer ul
+    {
+        margin-top: 15px;
+    }
+    footer label
+    {
+        margin-top: 20px;
+    }
+
+    .footer-top
+    {
+        display:grid;
+    }
+    .next
+    {
+       display: none;
+    }
+    
+}

@@ -1,0 +1,39 @@
+header button
+        {
+          background-color: #0047AB !important;
+          color: #fff !important;
+          border-radius: unset !important;
+          font-size: 15px !important;
+          font-weight: 600;
+          letter-spacing: 2px;
+        }
+        #header2{
+          display: none;
+        }
+        #header1 h1, p{
+          font-weight: bold;
+        }
+        #header1 p
+        {
+          font-size: 20px;
+        }
+        #header1
+        {
+          background-image: linear-gradient(to right top, #fff1e1, #fff2ed, #fff6f8, #fffbfe, #ffffff);
+        }
+        @media only screen and (max-width:360px) {
+          #header1
+          {
+            display: none;
+          }
+          #header2{
+            display: contents;
+          }
+          #header2 img
+          {
+            height: auto;
+            width: 100%;
+          }
+          }
+
+          

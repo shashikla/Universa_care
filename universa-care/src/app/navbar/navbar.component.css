@@ -1,0 +1,48 @@
+nav .navbar-nav li:nth-child(4) a
+        {
+          color: #0047AB !important;
+          font-weight: bold;
+        }
+        nav ul li {
+          padding: 8px;
+        }
+        nav ul li a
+        {
+          letter-spacing: 1px;
+          font-weight: 600;
+          font-size: 18px;
+        }
+        nav ul li a:after
+        {
+          content:""; 
+          background: rgb(214, 213, 213); 
+          position: absolute; 
+          margin-left:10px; 
+          height: 22px; 
+          width: 1.5px;
+        }
+        nav form 
+        {
+          color:#0047AB;
+        }
+        .top
+        {
+          color: #0047AB;
+          font-size: 15px !important;
+          font-weight: bold;
+        }
+        .bottom
+        {
+          background-color: #FFC03D !important;
+          font-size: 15px !important;
+          font-weight: 500;
+          letter-spacing: 2px;
+        }
+        @media only screen and (max-width:360px)
+        {
+          nav
+          {
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+          }
+        }

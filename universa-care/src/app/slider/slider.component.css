@@ -1,0 +1,27 @@
+
+.slider
+{
+    background-image: linear-gradient(to right top, #fff1e1, #fff2ed, #fff6f8, #fffbfe, #ffffff);
+
+}
+.list-inline i {
+    color: #FFC03D;
+}
+.list-inline li
+{
+    list-style: none;
+}
+.card
+{
+    border: none;
+}
+
+.card-title
+{
+    font-weight: bold;
+}
+
+.card-text
+{
+    font-size: 12px;
+}

@@ -1,0 +1,50 @@
+.top
+{
+    background-image: linear-gradient(to right top, #fff1e1, #fff2ed, #fff6f8, #fffbfe, #ffffff);
+
+}
+.card
+{
+    border: none;
+}
+.card:first-child
+{
+    background: none;
+    width: 330px;
+}
+.card:first-child p
+{
+    font-size: 20px;
+}
+.card h1
+{
+    font-weight: bold;
+}
+.card-title
+{
+    font-weight: bold;
+}
+.card-text
+{
+    font-size: 12px;
+}
+ul li i
+{
+    color: #FFC03D;
+}
+.card:last-child a
+{
+    color: #0047AB;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.card:last-child a:hover
+{
+    text-decoration: none;
+}
+.card:last-child
+{
+    background: none;
+    margin-left: 430px;
+}

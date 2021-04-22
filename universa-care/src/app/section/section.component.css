@@ -1,0 +1,71 @@
+section h4 span
+        {
+            color: orange;
+        }
+        section .card
+        {
+            border: none ;
+            background: none;
+        }
+        section .card img
+        {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            /* border: 1px solid red; */
+        }
+        section .curve img{
+            position: absolute;
+            margin-top: -25px;
+            left: 345px;
+            width: 17%;
+        }
+        section .curve1 img{
+            position: absolute;
+            margin-top: 34px;
+            left: 635px;
+            width: 17%;
+        }
+        section .curve2 img{
+            position: absolute;
+            margin-top: -25px;
+            left: 920px;
+            width: 17%;
+        }
+        section .card-text
+        {
+            font-size: 15px;
+        }
+        .card-title
+        {
+            font-weight: bold;
+        }
+        .flex2 h4{
+            font-weight: 600;
+        }
+        
+        @media only screen and (max-width:1300px) {
+        .curve, .curve1, .curve2 img{
+            display: none;
+        }
+        section h4{
+            max-width: 70%;
+            line-height: 40px;
+            font-size: 30px;
+        }
+        .flex1 img
+        {
+            height: 150px;
+            width: 170px;
+        }
+        .flex2
+        {
+            text-align: center;
+            width: auto !important;
+        }
+        #chap-card
+        {
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        }

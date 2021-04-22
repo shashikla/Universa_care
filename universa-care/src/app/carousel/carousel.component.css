@@ -1,0 +1,16 @@
+.card
+{
+    border: none;
+}
+.card button{
+    background-color: #0047AB ;
+      color: #fff;
+      border-radius: unset;
+      font-size: 15px;
+      letter-spacing: 2px;
+      font-weight: 500;
+}
+.card-title
+{
+    font-weight: bold;
+}

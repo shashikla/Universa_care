@@ -1,0 +1,60 @@
+hr
+    {
+        border: 1px solid #FFC03D;
+        background-color: #FFC03D;
+        box-shadow: 15px 10px 18px #888888;
+        /* color: red; */
+        height: 1px;
+        width: 200px;
+    }
+    .card
+    {
+        border: none;
+    }
+    .card
+    {
+        border-right: 1px dotted grey;
+    }
+    .flex-last .card
+    {
+        border-right: none !important;
+    }
+    .card-text
+    {
+        font-size: 15px;
+    }
+    .card button{
+        background-color: #0047AB ;
+          color: #fff;
+          border-radius: unset;
+          font-size: 15px;
+          letter-spacing: 2px;
+          font-weight: 500;
+    }
+    .card a
+    {
+        border-radius: 50%;
+        font-size: 25px !important;
+        width: 45px;
+        box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+    }
+    .flex-last
+    {
+        border-right: none !important;
+    }
+    .card-title
+    {
+        font-weight: bold;
+    }
+    @media only screen and (max-width:360px)
+    {
+        hr
+    {
+        border: 1px solid #FFC03D !important;
+        background-color: orange !important;
+        /* box-shadow: 15px 10px 18px #888888; */
+        color: orange;
+        height: 1px;
+        /* width: 00px; */
+    }
+    }
